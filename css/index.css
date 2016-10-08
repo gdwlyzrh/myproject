@@ -1,0 +1,528 @@
+@charset "utf-8";
+
+/*banner*/
+
+#banner {
+	height: 421px;
+}
+
+
+/*activity 活动*/
+
+#activity {
+	height: 246px;
+	background: #FFFFFF;
+}
+
+#activity .activityL {
+	float: left;
+	border: 1px solid #ddd;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 8px;
+	margin-left: 51px;
+	margin-top: 20px;
+}
+
+#activity .activityC {
+	float: left;
+	border: 1px solid #ddd;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 8px;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+#activity .activityR {
+	float: left;
+	border: 1px solid #ddd;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 8px;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+#activity p {
+	text-align: center;
+	font-size: 12px;
+}
+
+
+/*定制 customized*/
+
+#customized {
+	height: 160px;
+	background: #f9f9f9;
+}
+
+#customized .customizedL {
+	border: 1px solid #ddd;
+	width: 1180px;
+	margin-left: 51px;
+	height: 160px;
+	float: left;
+}
+
+#customized .customizedL img {
+	float: left;
+	padding-top: 20px;
+	padding-left: 15px;
+}
+
+#customized .customizedR {
+	float: left;
+	width: 525px;
+	height: 86px;
+	padding-top: 20px;
+	padding-left: 15px;
+}
+
+#customized .customizedR1 {
+	width: 215px;
+	height: 32px;
+	border: 1px solid #ddd;
+	float: left;
+}
+
+#customized .customizedR2 {
+	width: 295px;
+	height: 32px;
+	border: 1px solid #ddd;
+	float: left;
+	margin-left: 10px;
+}
+
+#customized .customizedR3 {
+	width: 215px;
+	height: 32px;
+	border: 1px solid #ddd;
+	float: left;
+	margin-top: 14px;
+}
+
+#customized .customizedR4 {
+	width: 295px;
+	height: 32px;
+	border: 1px solid #ddd;
+	float: left;
+	margin-left: 10px;
+	margin-top: 14px;
+}
+
+#customized button {
+	float: right;
+	margin-right: 110px;
+}
+
+
+/*钻戒diamondRing*/
+
+#diamondRing {
+	height: 430px;
+	background: #f9f9f9;
+}
+
+#diamondRing .diamond {
+	margin-left: 51px;
+	margin-top: 24px;
+	border: 1px solid #e1ddde;
+	height: 425px;
+	width: 1180px;
+}
+
+#diamondRing .diamondL {
+	padding-top: 6px;
+	padding-left: 6px;
+	height: 425px;
+	width: 315px;
+	float: left;
+}
+
+#diamondRing .diamondL a {
+	color: #222222;
+	display: block;
+}
+
+#diamondRing .diamondR {
+	width: 859px;
+	height: 420px;
+	float: left;
+}
+
+#diamondRing .diamondR img {
+	float: left;
+}
+
+#diamondRing .diamondB {
+	padding-top: 8px;
+	padding-left: 8px;
+	background: #f9f9f9;
+}
+
+#diamondRing .diamondC a {
+	line-height: 24px;
+	font-size: 12px;
+	font-size: 12px;
+}
+
+#diamondRing .diamondC {
+	padding-left: 30px;
+}
+
+#diamondRing .diamondJ {
+	padding-top: 50px;
+	padding-left: 30px;
+}
+
+#diamondRing .diamondJ a {
+	line-height: 24px;
+	font-size: 12px;
+}
+
+
+/*设计 proect*/
+
+#proect {
+	height: 120px;
+	margin-top: 24px;
+	margin-left: 51px;
+}
+
+#proect .proectImg {
+	width: 1183px;
+	background: #8A0003;
+}
+
+#proect img {
+	float: left;
+}
+
+
+/*情侣对戒 copleRings*/
+
+#coupleRings {
+	background: #fefefe;
+}
+
+#coupleRings .couple {
+	margin-left: 51px;
+	margin-top: 24px;
+	border: 1px solid #e1ddde;
+	height: 425px;
+	width: 1183px;
+}
+
+#coupleRings .coupleL {
+	padding-top: 6px;
+	padding-left: 6px;
+	height: 425px;
+	width: 315px;
+	float: left;
+}
+
+#coupleRings .coupleL a {
+	color: #222222;
+	display: block;
+}
+
+#coupleRings .coupleR {
+	width: 600px;
+	float: left;
+}
+
+#coupleRings .coupleR img {
+	float: left;
+}
+
+#coupleRings .coupleRImg {
+	float: left;
+}
+
+#coupleRings .coupleRImg {
+	float: left;
+}
+
+#coupleRings .coupleB {
+	padding-top: 8px;
+	padding-left: 8px;
+	background: #f9f9f9;
+}
+
+#coupleRings .coupleC a {
+	line-height: 24px;
+	font-size: 12px;
+	font-size: 12px;
+}
+
+#coupleRings .coupleC {
+	padding-left: 30px;
+}
+
+#coupleRings .coupleJ {
+	padding-top: 80px;
+	padding-left: 30px;
+}
+
+#coupleRings .coupleJ a {
+	line-height: 24px;
+	font-size: 12px;
+}
+
+
+/*彩宝 coloredGems*/
+
+#coloredGems {
+	height: 430px;
+	background: #f9f9f9;
+}
+
+#coloredGems .color {
+	margin-left: 51px;
+	margin-top: 24px;
+	border: 1px solid #e1ddde;
+	height: 425px;
+	width: 1180px;
+}
+
+#coloredGems .colorL {
+	padding-top: 6px;
+	padding-left: 6px;
+	height: 425px;
+	width: 315px;
+	float: left;
+}
+
+#coloredGems .colorL a {
+	color: #222222;
+	display: block;
+}
+
+#coloredGems .colorR {
+	width: 859px;
+	height: 420px;
+	float: left;
+}
+
+#coloredGems .colorR img {
+	float: left;
+}
+
+#coloredGems .colorB {
+	padding-top: 8px;
+	padding-left: 8px;
+	background: #f9f9f9;
+}
+
+#coloredGems .colorC a {
+	line-height: 24px;
+	font-size: 12px;
+	font-size: 12px;
+}
+
+#coloredGems .colorC {
+	padding-left: 30px;
+}
+
+#coloredGems .colorJ {
+	padding-top: 50px;
+	padding-left: 30px;
+}
+
+#coloredGems .colorJ a {
+	line-height: 24px;
+	font-size: 12px;
+}
+
+
+/*戴欧妮doonly*/
+
+#dionly {
+	height: 119px;
+	width: 1183px;
+	margin-left: 51px;
+	margin-top: 24px;
+}
+
+
+/*珍珠pearl*/
+
+#pearl {
+	background: #fefefe;
+}
+
+#pearl .pearl {
+	margin-left: 51px;
+	margin-top: 24px;
+	border: 1px solid #e1ddde;
+	height: 425px;
+	width: 1183px;
+}
+
+#pearl .pearlL {
+	padding-top: 6px;
+	padding-left: 6px;
+	height: 425px;
+	width: 315px;
+	float: left;
+}
+
+#pearl .pearlL a {
+	color: #222222;
+	display: block;
+}
+
+#pearl .pearlR {
+	width: 600px;
+	float: left;
+}
+
+#pearl .pearlR img {
+	float: left;
+}
+
+#pearl .pearlRImg {
+	float: left;
+}
+
+#pearl .pearlRImg {
+	float: left;
+}
+
+#pearl .pearlB {
+	padding-top: 8px;
+	padding-left: 8px;
+	background: #f9f9f9;
+}
+
+#pearl .pearlC a {
+	line-height: 24px;
+	font-size: 12px;
+	font-size: 12px;
+}
+
+#pearl .pearlC {
+	padding-left: 30px;
+}
+
+#pearl .pearlJ {
+	padding-top: 80px;
+	padding-left: 30px;
+}
+
+#pearl .pearlJ a {
+	line-height: 24px;
+	font-size: 12px;
+}
+
+
+/*黄金gold*/
+
+#gold {
+	background: #fefefe;
+}
+
+#gold .gold {
+	margin-left: 51px;
+	margin-top: 24px;
+	border: 1px solid #e1ddde;
+	height: 425px;
+	width: 1183px;
+}
+
+#gold .goldL {
+	padding-top: 6px;
+	padding-left: 6px;
+	height: 425px;
+	width: 315px;
+	float: left;
+}
+
+#gold .goldL a {
+	color: #222222;
+	display: block;
+}
+
+#gold .goldR {
+	width: 600px;
+	float: left;
+}
+
+#gold .goldR img {
+	float: left;
+}
+
+#gold .goldRImg {
+	float: left;
+}
+
+#gold .goldRImg {
+	float: left;
+}
+
+#gold .goldB {
+	padding-top: 8px;
+	padding-left: 8px;
+	background: #f9f9f9;
+}
+
+#gold .goldC a {
+	line-height: 24px;
+	font-size: 12px;
+	font-size: 12px;
+}
+
+#gold .goldC {
+	padding-left: 30px;
+}
+
+#gold .goldJ {
+	padding-top: 80px;
+	padding-left: 30px;
+}
+
+#gold .goldJ a {
+	line-height: 24px;
+	font-size: 12px;
+}
+
+
+/*新闻news*/
+
+#news {
+	height: 290px;
+}
+
+#news .fl { float:left; }
+#news .news{width: 1183px;margin-left: 51px;}
+#news .newSection {
+	width: 320px;
+	height: 288px;
+	border: 1px solid #e3e3e3;
+	margin-right: 10px;
+}
+
+#news .newSection h2 {
+	height: 33px;
+	width: 320px;
+	line-height: 33px;
+	text-indent: 15px;
+	color: #222222;
+	font-size: 12px;
+}
+
+#news .newSection .detial img {
+	margin: 5px;
+}
+
+#news .newSection .detial li {
+	line-height: 27px;
+	height: 27px;
+	text-indent: 15px;
+}
+
+#news .newSection .detial li a:hover,
+#news .newSection h2 a:hover {
+	color: #DB3962;
+}

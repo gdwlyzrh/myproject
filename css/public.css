@@ -1,0 +1,367 @@
+@charset "utf-8";
+html,
+input,
+body,
+div,
+ol,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+input,
+button,
+img,
+dd,
+dt,
+dl {
+	margin: 0;
+	padding: 0;
+}
+
+a,
+u {
+	text-decoration: none;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+input,
+button {
+	outline: none;
+}
+
+img {
+	border: 0
+}
+
+.publicWidth {
+	width: 1256px;
+}
+
+#top {
+	height: 138px;
+	background: palegoldenrod;
+}
+
+#top .topTit {
+	height: 38px;
+	background: #f3f3f3;
+}
+
+#top .topTit p {
+	font-size: 12px;
+	color: #222;
+	line-height: 38px;
+	text-align: center;
+}
+
+#top .topTit a {
+	font-size: 12px;
+	color: #222;
+	line-height: 38px;
+	text-align: center;
+}
+
+#top .topBottom {
+	height: 100px;
+	background: #fff;
+}
+
+#top .topLogo {
+	width: 107px;
+	height: 72px;
+	margin-top: 15px;
+	margin-left: 70px;
+	float: left;
+}
+
+#top .from {
+	width: 263px;
+	height: 65px;
+	margin-left: 389px;
+	margin-top: 22px;
+	margin-right: 148px;
+	float: left;
+}
+
+#top .from input {
+	width: 201px;
+	height: 32px;
+}
+
+#top .from button {
+	width: 50px;
+	height: 32px;
+}
+
+#top .from p a {
+	font-size: 12px;
+	color: #7d7d7d;
+}
+
+#top .topR {
+	width: 210px;
+	height: 70px;
+	float: left;
+	margin-top: 13px;
+}
+
+#nav {
+	height: 40px;
+	background: #fff;
+}
+
+#nav .all {
+	width: 200px;
+	height: 40px;
+	background: #c11e20;
+	margin-left: 40px;
+	float: left;
+}
+
+#nav .all p {
+	color: #fff;
+	font-weight: 700;
+	font-size: 12px;
+	margin-left: 18px;
+	height: 40px;
+	line-height: 40px;
+}
+
+#nav ul {
+	float: left;
+}
+
+#nav ul li {
+	float: left;
+	padding-left: 50px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+
+#nav ul li a {
+	color: #222;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+#nav ul li a:hover {
+	display: block;
+	color: #db3962;
+}
+
+#nav .phone {
+	width: 205px;
+	height: 40px;
+	margin-left: 100px;
+	float: left;
+}
+
+#bottom {
+	height: 890px;
+	background: #fff;
+}
+
+#bottom .experience {
+	height: 70px;
+	background: #fff;
+}
+
+#bottom .experience h3 {
+	width: 74px;
+	font-size: 14px;
+	margin-left: 65px;
+	color: #222;
+	margin-top: 45px;
+	float: left;
+}
+
+#bottom .experience ul {
+	margin-top: 45px;
+	margin-left: 320px;
+	float: left;
+	width: 782px;
+	border-bottom: 2px solid #838383;
+}
+
+#bottom .experience ul li {
+	float: left;
+	margin-left: 18px;
+	margin-right: 18px;
+}
+
+#bottom .experience ul li a {
+	color: #222;
+	font-size: 14px;
+	line-height: 23px;
+}
+
+#bottom .experience ul li a:hover {
+	display: block;
+	color: #8a0003;
+}
+
+#bottom .boxAdd {
+	background: url(../img/index/map.png);
+	margin-left: 50px;
+	float: left;
+	width: 678px;
+	height: 224px;
+	border: 1px solid #6b6b6b;
+}
+
+#bottom .boxAdd h2 {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 22px;
+	font-weight: 700;
+}
+
+#bottom .boxAdd h2 a {
+	color: #222;
+}
+
+#bottom .boxAdd h2 a:hover {
+	display: block;
+	color: #db3962;
+}
+
+#bottom .boxAdd p {
+	text-align: center;
+	height: 32px;
+	line-height: 32px;
+}
+
+#bottom .imgBox {
+	width: 500px;
+	float: left;
+	padding-right: 20px;
+}
+
+#bottom .afterSale {
+	clear: both;
+	height: 117px;
+	margin-left: 50px;
+	background: #fff;
+}
+
+#bottom .afterSale img {
+	padding-top: 30px;
+}
+
+#bottom .relevance {
+	padding-left: 50px;
+	height: 160px;
+	background: #e9e9e9;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+
+#bottom .relevanceBox {
+	width: 195px;
+	float: left;
+	border-right: 1px solid #ccc;
+}
+
+#bottom .relevanceBox p {
+	text-align: center;
+	padding-top: 40px;
+	color: #222;
+}
+
+#bottom .relevanceBox a {
+	margin-left: 50px;
+	display: block;
+	padding-top: 10px;
+	color: #555;
+}
+
+#bottom .address {
+	height: 95px;
+	background: #333;
+}
+
+#bottom .address .addressLeft {
+	float: left;
+	padding-top: 15px;
+	padding-left: 50px;
+}
+
+#bottom .address .addressLeft p {
+	color: #b9b9b9;
+	line-height: 35px;
+	height: 35px;
+	font-size: 12px;
+}
+
+#bottom .address .addressReight {
+	float: left;
+	padding-top: 15px;
+	padding-left: 290px;
+}
+
+#bottom .address .addressReight p {
+	color: #b9b9b9;
+	line-height: 35px;
+	height: 35px;
+	font-size: 12px;
+}
+
+#bottom .address .addressReight h3 {
+	color: #b9b9b9;
+}
+
+#bottom .safety {
+	margin-left: 50px;
+	height: 85px;
+	background: #fff;
+}
+
+#bottom .safety img {
+	padding-top: 15px;
+}
+
+#bottom .connect {
+	height: 136px;
+	background: #fff;
+}
+
+#bottom .connect ul {
+	float: left;
+}
+
+#bottom .connect ul li {
+	float: left;
+	margin-left: 12px;
+}
+
+#bottom .connect span {
+	display: block;
+	font-size: 14px;
+	color: #999;
+	float: left;
+}
+
+#bottom .connect ul li a {
+	font-size: 14px;
+	color: #999;
+}
+
+#bottom .connect p {
+	font-size: 14px;
+	color: #999;
+	display: inline;
+	float: right;
+}
+
