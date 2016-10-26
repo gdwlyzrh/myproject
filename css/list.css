@@ -1,0 +1,268 @@
+@charset "utf-8";
+
+/* 戴欧妮珠宝list css */
+a{ color:#222222; } 
+body a:hover{color:#DB3962;} 
+
+
+/*listBanner*/
+
+#listBanner {
+	height: 195px;
+	background: #F3F3F3;
+	margin-left: 40px;
+}
+
+#listBanner a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.listPath {
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+}
+
+.listPath a {
+	padding: 0 8px;
+}
+
+
+
+
+
+
+
+.listSlide {
+	width: 242px;
+}
+
+.listSlide .listSideSection {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #cecece;
+}
+
+.listSlide .listSideSection h2 {
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	text-indent: 10px;
+	background: url(../img/list/listSideSectionBg.png) repeat-x;
+	font-size: 12px;
+}
+
+.listSlide .listSideSection .classfyList {
+	width: 202px;
+	padding: 15px 0 5px 19px;
+}
+
+.listSlide .listSideSection .classfyList .firstMenu {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.listSlide .listSideSection .classfyList .firstMenuLink {
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	text-indent: 20px;
+	font-size: 14px;
+	font-weight: 600;
+	background: url(../img/list/listshowbg.png) no-repeat left center;
+}
+
+.listSlide .listSideSection .classfyList .active {
+	color: #ff0000;
+}
+
+.listSlide .listSideSection .classfyList .firstMenu .secondMenu {
+	width: 202px;
+	margin-top: 15px;
+	border-top: 1px dashed #d1d1d1;
+	border-bottom: 1px dashed #d1d1d1;
+	background: #fafafa;
+	display: none;
+}
+
+.listSlide .listSideSection .classfyList .firstMenu .secondMenu li {
+	float: left;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 21px;
+}
+
+.listSlide .listSideSection .hotShow {
+	width: 202px;
+	padding: 19px 19px 6px 19px;
+}
+
+.listSlide .listSideSection .hotShow .imgShow {
+	width: 200px;
+	height: 200px;
+	border: 1px solid #D2D2D2;
+}
+
+.listSlide .listSideSection .hotShow a {
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.listSlide .listSideSection .hotShow i {
+	display: block;
+	height: 35px;
+	width: 100%;
+	text-align: center;
+}
+
+.listSlide .listSideSection .hotShow b {
+	font-size: 14px;
+	color: #DB3962;
+}
+
+.listSlide .imgList {
+	width: 100%;
+}
+
+.listSlide .imgList a {
+	display: block;
+	width: 100%;
+	border: 1px solid #d2d2d2;
+	margin-bottom: 10px;
+}
+
+.listSlide .imgList a img {
+	width: 100%;
+}
+
+
+.listMain {
+	width: 920px;
+}
+
+.listMain .listMainSelect {
+	padding: 10px 0;
+	background: #f8f8f8;
+	border: 1px solid #cecece;
+}
+
+.listMain .listMainSelect p {
+	width: 920px;
+	height: 40px;
+	margin: 0 auto;
+	border-bottom: 1px dashed #d2d2d2;
+}
+
+.listMain .listMainSelect p span {
+	width: 50px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	margin-right: 15px;
+	color: #DB3962;
+}
+
+.listMain .listMainSelect p a {
+	float: left;
+	height: 17px;
+	padding: 0 15px;
+	border-left: 1px solid #383333;
+	margin-top: 10px;
+}
+
+.listMain .listMainSelect .noBor {
+	border: 0;
+}
+
+.listMain .listMaiNavBar {
+	width: 920px;
+	height: 35px;
+	margin-top: 50px;
+	border: 1px solid #cecece;
+	background: url(../img/list/listSideSectionBg.png) repeat-x;
+}
+
+.listMain .listMaiNavBar li {
+	float: left;
+	width: 70px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-right: 1px solid #cecece;
+}
+
+.listMain .listMaiNavBar li:hover {
+	color: #DB3962;
+	cursor: pointer;
+}
+
+.listMain .listMainPage {
+	margin-top: 20px;
+	width: 921px;
+	border: 1px solid #cecece;
+	border-bottom: 0;
+	border-right: 0;
+}
+
+.listMain .listMainPage .listMainPageSelection {
+	float: left;
+	width: 306px;
+	height: 290px;
+	border-right: 1px solid #cecece;
+	border-bottom: 1px solid #cecece;
+	overflow: hidden;
+}
+
+.listMainPage .listMainPageSelection .itemImg {
+	width: 200px;
+	height: 210px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.listMainPage .listMainPageSelection .itemImg img {
+	margin-top: 10px;
+	width: 200px;
+	height: 200px;
+}
+
+.listMainPage .listMainPageSelection .itemName {
+	width: 100%;
+	height: 40px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.listMainPage .listMainPageSelection .itemPrice {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #f8f8f8;
+}
+
+.listMainPage .listMainPageSelection .itemPrice .priceMarket {
+	text-indent: 13px;
+}
+
+.listMainPage .listMainPageSelection .itemPrice .priceMarket b {
+	text-decoration: line-through;
+}
+
+.listMainPage .listMainPageSelection .itemPrice .priceDionly {
+	padding-right: 13px;
+}
+
+.listMainPage .listMainPageSelection .itemPrice .priceDionly b {
+	color: #DB3962;
+}
+
+
+/*end listMain*/

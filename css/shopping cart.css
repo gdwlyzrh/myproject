@@ -1,1 +1,87 @@
 @charset "utf-8";
+@charset "utf-8";
+
+/* shopcart css */
+
+#shopcar {
+	background: #fef1ef;
+	padding: 20px 0;
+	margin-top: 40px;
+	margin-left: 51px;
+}
+
+#shopcar .dimondCart {
+	width: 1140px;
+	padding: 10px 20px 10px 20px;
+	border: 1px solid #dedede;
+	background: #ffffff;
+}
+
+#shopcar .dimondCart .head {
+	width: 1140px;
+	height: 41px;
+	border-top: 3px solid #ffc0c1;
+	font-weight: 600;
+	margin-bottom: 9px;
+}
+
+#shopcar .dimondCart .head span {
+	display: block;
+	width: 1140px;
+	height: 40px;
+	font-size:14px ;
+	line-height: 40px;
+	border-bottom: 1px solid #dedede;
+	text-indent: 30px;
+	background: url(../img/shopcart/carthead.jpg) no-repeat left center;
+}
+
+#shopcar .dimondCart .show {
+	height: 446px;
+	width: 1160px;
+	margin-left: 20px;
+	background: url(../img/shopcart/shopcart.jpg) no-repeat;
+	overflow: hidden;
+}
+
+#shopcar .dimondCart .show span {
+	display: block;
+	height: 40px;
+	width: 320px;
+	font-size:14px ;
+	margin: 100px 0 0 600px;
+	line-height: 40px;
+	border: 1px solid #dedede;
+	background: #fffaf9;
+	text-indent: 10px;
+}
+
+#shopcar .dimondCart table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#shopcar .dimondCart table td {
+	text-align: center;
+}
+
+#shopcar .dimondCart .headRow {
+	height: 30px;
+	line-height: 30px;
+}
+
+#shopcar .dimondCart .productsDetail {
+	background: #f7f7f7;
+}
+
+#shopcar .dimondCart .productsDetail td {
+	padding: 5px;
+	width: 120px;
+	height: 120px;
+}
+
+#shopcar .dimondCart .count {
+	height: 40px;
+	line-height: 40px;
+	background: #F7F7F7;
+}

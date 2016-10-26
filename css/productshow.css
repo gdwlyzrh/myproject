@@ -1,23 +1,328 @@
 @charset "utf-8";
-#showbox{
-	background: #f1f1f1;}
-#showbox .tit{margin-left: 40px;
-	height:50px
+.xqycon {
+	margin-left: 51px;
+	height: 513px;
 }
-#showbox .tit p{
-	line-height:50px;
+
+.xqycon .xqy_fdj {
+	position: relative;
+	float: left;
+	margin-right: 30px;
+	width: 400px;
+	z-index: 100;
+}
+
+.xqycon .xqy_fdj .fdj_box1 {
+	margin-bottom: 15px;
+	border: 1px solid #ededed;
+	width: 398px;
+	height: 398px;
+	position: relative;
+}
+
+.xqycon .xqy_fdj .fdj_box1 .xwrapper {
+	width: 398px;
+	height: 398px;
+	position: relative;
+}
+
+.xqycon .xqy_fdj .fdj_box1 .xwrapper img {
+	width: 100%;
+	height: 100%;
+}
+
+.xqycon .xqy_fdj .fdj_box1 .xwrapper .filter {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	background: #fff;
+	opacity: 0.5;
+	cursor: move;
+}
+
+.xqycon .xqy_fdj .fdj_box1 .dwrapper {
+	display: none;
+	width: 398px;
+	left: 400px;
+	top: 0;
+	position: absolute;
+	height: 398px;
+	overflow: hidden;
+}
+
+.xqycon .xqy_fdj .fdj_box1 .dwrapper img {
+	width: 800px;
+	height: 800px;
+	position: relative;
+}
+
+.xqycon .xqy_fdj .fdj_box2 {
+	width: 380px;
+	margin: auto;
+	height: 60px;
+	position: relative;
+}
+
+.xqycon .xqy_fdj .fdj_box2 .fdj_tu {
+	overflow: hidden;
+	width: 380px;
+	height: 60px;
+	position: relative;
+}
+
+.xqycon .xqy_fdj .fdj_box2 .fdj_tu ul {
+	position: absolute;
+	width: 1000px;
+}
+
+.xqycon .xqy_fdj .fdj_box2 .fdj_tu ul li {
+	width: 58px;
+	height: 58px;
+	float: left;
+	margin-right: 6px;
+	cursor: pointer;
+	border: 1px solid #fff;
+}
+
+.xqycon .xqy_fdj .fdj_box2 .fdj_tu ul li img {
+	width: 100%;
+	height: 100%;
+}
+
+.xqycon .xqy_fdj .fdj_box2 .fdj_tu ul .redli {
+	border: 1px solid #f00;
+}
+
+.xqycon .xqy_fdj .fdj_box2 .fdj_tu ul .redli2 {
+	border: 1px solid #f00;
+}
+
+.xqycon .xqy_fdj .fdj_box2 .fdj_left {
+	color: #888;
+	font-size: 26px;
+	font-weight: bold;
+	position: absolute;
+	left: -22px;
+	top: 0;
+	height: 60px;
+	line-height: 60px;
+	cursor: pointer;
+}
+
+.xqycon .xqy_fdj .fdj_box2 .fdj_right {
+	color: #888;
+	font-size: 26px;
+	font-weight: bold;
+	position: absolute;
+	right: -20px;
+	top: 0;
+	height: 60px;
+	line-height: 60px;
+	cursor: pointer;
+}
+
+.tit {
+	margin-left: 40px;
+	height: 50px
+}
+
+.tit p {
+	line-height: 50px;
 	margin-left: 16px;
 }
-#showbox .showTop{
-	height: 600px;
+
+
+.showTop .showtopL {
+	  position: relative;
+	height: 565px;
+	width: 415px;
+	margin-top: 15px;
+	float: left;
+	margin-left: 40px;
+	padding-right: 48px;
+	border-right: 1px solid #d2d2d2;
+}
+
+.showtopR {
+	width: 565px;
+	height: 565px;
+	float: left;
+	margin-left: 110px;
+
+}
+
+.showtopR p {
+	height: 34px;
+	line-height: 34px;
+	font-size: 12px;
+}
+
+.showtopR input {
+	width: 84px;
+	height: 20px;
+	border: 1px solid #ccc;
+}
+
+.showtopR a {
+	color: #a00005;
+}
+
+.showtopR .choose a {
+	padding: 10px;
+	background: #CCCCCC;
+	color: #222
+}
+
+.showtopR .choose a:hover {
+	padding: 10px;
+	background: #db3962;
+	color: #ffffff
+}
+
+.showtopR button {
+	font-size: 16px;
+	float: left;
+	margin-right: 10px;
+	padding: 12px;
+	background: #ce9753;
+	color: #e4d0c1;
+	border: 1px solid #dbb075;
+	margin-top: 20px;
+}
+
+.showBottom {
 	width: 1180px;
 	border: 1px solid #d2d2d2;
-	border-top:3px solid #ffc0c1 ;
+	border-top: 3px solid #ffc0c1;
 	margin-left: 40px;
 }
-#showbox .showBottom{
-	width: 1180px;
+
+.showBottom .relieved h2 {
+	color: #DB3962;
+	border-bottom: 1px solid #d2d2d2;
+	font-size: 12px;
+	height: 35px;
+	line-height: 35px;
+	background: #e3e3e3;
+}
+
+.showBottom h3 {
+	color: #222222;
+	font-size: 12px;
+	height: 35px;
+	border-bottom: 1px solid #d2d2d2;
+	line-height: 35px;
+	background: #e3e3e3;
+}
+
+.showBottom img {
+	padding-top: 10px;
+}
+
+.showBottom .relieved {
+	width: 245px;
+	height: 270px;
+	margin-top: 20px;
 	border: 1px solid #d2d2d2;
-	border-top:3px solid #ffc0c1 ;
-	margin-left: 40px;
+	background: #FFFFFF;
+}
+
+.showBottom .recommend {
+	width: 245px;
+	text-align: center;
+	border: 1px solid #d2d2d2;
+	background: #FFFFFF;
+}
+
+.showBottom .recommend a {
+	font-size: 12px;
+	color: #222222;
+}
+
+.showBottom .recommend a:hover {
+	display: block;
+	color: #f23044;
+}
+
+.showBottom .recommend p {
+	border-bottom: 1px solid #d2d2d2;
+	height: 44px;
+	line-height: 44px;
+}
+
+.showBottom .history {
+	width: 245px;
+	text-align: center;
+	border: 1px solid #d2d2d2;
+	background: #FFFFFF;
+}
+
+.showBottom .history img {
+	height: 200px;
+	width: 200px;
+}
+
+.showBottom .history a {
+	font-size: 12px;
+	color: #222222;
+}
+
+.showBottom .history a:hover {
+	display: block;
+	color: #f23044;
+}
+
+.showBottom .history p {
+	border-bottom: 1px solid #d2d2d2;
+	height: 44px;
+	line-height: 44px;
+}
+
+.showBottom .showbottomL {
+	float: left;
+}
+
+.showBottom .showbottomR {
+	margin-top: 20px;
+	width: 907px;
+	border: 1px solid #d2d2d2;
+	float: left;
+	margin-left: 22px;
+}
+
+.showBottom .showbottomR ul {
+	float: left;
+	background: #f2f2f2;
+	width: 907px;
+	height: 35px;
+	border: 1px solid #d2d2d2
+}
+
+.showBottom .showbottomR ul li {
+	float: left;
+	height: 35px;
+	border-right: 1px solid #d2d2d2;
+}
+
+.showBottom .showbottomR ul li a {
+	color: #222222;
+	text-align: center;
+	font-size: 12px;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#information img {
+	margin-top: 40px;
+	margin-left: 100px;
+}
+
+#service img {
+	margin-top: 40px;
+	margin-left: 100px;
 }

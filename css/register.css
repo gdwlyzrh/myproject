@@ -1,1 +1,121 @@
 @charset "utf-8";
+.fl{float: left;}
+#login {
+	height: 588px;
+	background: #fbedec url(../img/login/login.jpg) no-repeat center;
+}
+
+.login {
+	height: 588px;
+	width: 518px;
+	float: right;
+}
+
+.login .topBar {
+	width: 385px;
+	height: 25px;
+	line-height: 25px;
+	margin-top: 112px;
+	margin-left:280px ;
+}
+
+.login .topBar a {
+	color: #DB3962;
+	font-size:14px ;
+}
+
+.login .phoneNumber {
+	height: 30px;
+	width: 390px;
+	margin-top: 41px;
+}
+
+.login .phoneNumber b {
+	display: block;
+	width: 100%;
+	margin-left: 100px;
+	margin-top: 5px;
+}
+
+.login .phoneNumber input,
+.login .password input {
+	width: 150px;
+	height: 28px;
+	border: 0;
+	margin-left: 100px;
+	font-size: 12px;
+	padding: 1px 3px;
+	color: #888888;
+}
+
+.login .password {
+	height: 30px;
+	width: 390px;
+	margin-top: 24px;
+}
+
+.login .password b {
+	display: block;
+	width: 100%;
+	margin-left: 100px;
+	margin-top: 5px;
+
+	font-size:12px ;
+}
+
+.login .password input {
+	width: 156px;
+}
+
+.login .autoLogin {
+	height: 35px;
+	width: 390px;
+	margin-top: 24px;
+}
+
+.login .autoLogin input {
+	margin-left: 55px;
+}
+
+.login .autoLogin span {
+	margin-left: 6px;
+}
+
+.login .autoLogin a {
+	margin-left: 100px;
+	color: #222;
+	font-size:12px ;
+}
+
+.login .autoLogin a:hover {
+	color: #DB3962;
+}
+
+.login .loginSubmit {
+	height: 41px;
+	width: 321px;
+	margin-left: 60px;
+	background: url(../img/login/loginbutn.png) no-repeat;
+}
+
+.login .loginSubmit a {
+	display: block;
+	height: 41px;
+	width: 321px;
+}
+
+.login .loginMethod {
+	height: 75px;
+	width: 330px;
+	margin-top: 62px;
+	margin-left: 85px;
+}
+
+.login .loginMethod a {
+	margin-right: 18px;
+}
+
+.login .loginMethod .loginWb,
+.login .loginMethod .loginZfb {
+	margin-top: -7px;
+}
